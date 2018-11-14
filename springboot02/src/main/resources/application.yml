@@ -1,0 +1,25 @@
+#server:
+#    port: 8090
+#
+#person:
+#    lastName: 李四
+#    age: 20
+#    boss: false
+#    birth: 2018/12/01
+#    maps: {k1: v1,k2: 12}
+#    lists:
+#      - lisi
+#      - zhaoliu
+#    dog:
+#      name: 小狗
+#      age: 2
+spring:
+    prifiles:
+        active: dev
+
+---
+server:
+    prot: 8082
+spring:
+    profiles: dev
+

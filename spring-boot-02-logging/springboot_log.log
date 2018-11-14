@@ -1,0 +1,11 @@
+2018-11-04 16:19:17.635  INFO 54628 --- [main] .t.s.SpringBoot02LoggingApplicationTests : Starting SpringBoot02LoggingApplicationTests on myhp with PID 54628 (started by Tekin in E:\JAVA\vlearn\spring-boot-02-logging)
+2018-11-04 16:19:17.639 DEBUG 54628 --- [main] .t.s.SpringBoot02LoggingApplicationTests : Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-04 16:19:17.644  INFO 54628 --- [main] .t.s.SpringBoot02LoggingApplicationTests : No active profile set, falling back to default profiles: default
+2018-11-04 16:19:21.640  INFO 54628 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-04 16:19:22.436  INFO 54628 --- [main] .t.s.SpringBoot02LoggingApplicationTests : Started SpringBoot02LoggingApplicationTests in 5.615 seconds (JVM running for 8.111)
+2018-11-04 16:19:22.946 TRACE 54628 --- [main] .t.s.SpringBoot02LoggingApplicationTests : 这个是trace日志
+2018-11-04 16:19:22.947 DEBUG 54628 --- [main] .t.s.SpringBoot02LoggingApplicationTests : 这个是debug日志
+2018-11-04 16:19:22.949  INFO 54628 --- [main] .t.s.SpringBoot02LoggingApplicationTests : 这个是info日志
+2018-11-04 16:19:22.950  WARN 54628 --- [main] .t.s.SpringBoot02LoggingApplicationTests : 这个是warn日志
+2018-11-04 16:19:22.950 ERROR 54628 --- [main] .t.s.SpringBoot02LoggingApplicationTests : 这个是error日志
+2018-11-04 16:19:22.967  INFO 54628 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
